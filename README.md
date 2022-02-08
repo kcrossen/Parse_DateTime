@@ -12,5 +12,5 @@ The usual (but more relaxed) ISO 8601 format is supported directly, but any "rea
 2) Feb OR febuary OR 02 (if the mm/dd/yyyy rule is followed) to express the month, similarly for other months
 3) 6 OR 06 to express the day of the month
 4) 8:00 OR 8:00a OR 8:00am OR 8:00p OR 8:00pm OR 08:00 OR 08:00a OR 08:00am OR 08:00p OR 08:00pm OR 18:30, etc. to express the time
-5) 2nd Tue Feb 2021 OR 3rd Monday Feb 2021 OR 4th Sat June 2021, etc. to schedule an election (1st, 2nd, 3rd, 4th, 5th)
+5) 2nd Tue Feb 2021 OR 3rd Monday Feb 2021 OR 4th Sat June 2021, etc. to schedule an election or holiday (1st, 2nd, 3rd, 4th, 5th)
 6) time zones are not supported, all datetimes are assumed to be local or UTC or whatever you need
