@@ -7,7 +7,7 @@ The requiements are much looser than the usual computer datetime formats. Separa
 
 At this point regular expressions will do the job without breaking a sweat. In this case, I used QRegExp (normally I'd use PCRE) which is one of the weaker regular expression libraries (for example, no lookback). Doesn't matter, the task is simple.
 
-The usual (but more relaxed) ISO 8601 format is supported directly, but any "reasonable" ordering of the following datetime "atoms" will be correctly parsed if the user follows the above two requirements. If you want to support "unreasonable" formats, for example "8:00p 2022 3 feb", this can easily be added. Just study the currently supported formats to see how.
+The usual (but more relaxed) ISO 8601 format and the SQL date format are supported directly, but any "reasonable" ordering of the following datetime "atoms" will be correctly parsed if the user follows the above two requirements. If you want to support "unreasonable" formats, for example "8:00p 2022 3 feb", this can easily be added. Just study the currently supported formats to see how.
 1) 2021, 2022, etc. to express the year
 2) Feb OR febuary OR 02 (if the mm/dd/yyyy rule is followed) to express the month, similarly for other months
 3) 6 OR 06 to express the day of the month
